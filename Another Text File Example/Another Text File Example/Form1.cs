@@ -14,12 +14,15 @@ namespace Another_Text_File_Example
     
     public partial class Form1 : Form
     {
+        //object to save as string
         private Guy SomeGuy { get; set; }
+        //Main form
         public Form1()
         {
             InitializeComponent();
         }
 
+        //Save function
         private static void Save()
         {
             try
@@ -48,6 +51,7 @@ namespace Another_Text_File_Example
         }
     }
 
+    //class to save
     public class Guy
     {
         public string Name { get; set; }
